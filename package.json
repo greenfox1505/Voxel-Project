@@ -1,0 +1,30 @@
+{
+  "name": "vox_project",
+  "version": "0.0.1",
+  "description": "I have been expirementing with Voxel rendering for the past few months. I think I'm ready to make this full.",
+  "main": "index.html",
+  "scripts": {
+    "watch": "npm run build -- --watch",
+    "build": "./node_modules/.bin/simplifyify src/Vox.main.js --outfile Vox.js --debug --minify --bundle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenfox1505/Voxel-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greenfox1505/Voxel-Project/issues"
+  },
+  "homepage": "https://github.com/greenfox1505/Voxel-Project#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-ws": "^3.0.0",
+    "npm": "^6.0.1",
+    "simplex-noise": "^2.4.0",
+    "simplifyify": "^4.0.2",
+    "stats-js": "^1.0.0-alpha1",
+    "three": "^0.91.0"
+  }
+}
